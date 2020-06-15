@@ -23,16 +23,16 @@ function setup() {
     divisions.push(new Division(i,630))
   }
 
-  for(var j=20; j<500; j+= 50){
+  for(var j=35; j<500; j+= 50){
     plinkos.push(new Plinko(j,100));
   }
-  for(var j=45; j<490; j+= 50){
+  for(var j=20; j<490; j+= 50){
     plinkos.push(new Plinko(j,170));
   }
-  for(var j=20; j<490; j+= 50){
+  for(var j=45; j<490; j+= 50){
     plinkos.push(new Plinko(j,240));
   }
-  for(var j=45; j<490; j+= 50){
+  for(var j=20; j<490; j+= 50){
     plinkos.push(new Plinko(j,310));
   }
 
